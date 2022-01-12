@@ -1,0 +1,11 @@
+- type: header
+  text:
+    type: plain_text
+    text: {{.Name}}
+- type: divider
+- type: section
+  fields:
+    - type: mrkdwn
+      text: |
+        *Age* `{{.Age}}`
+        *Location* `{{.Location}}`
